@@ -1,0 +1,391 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.37f1 (090b7797214c) revision 592759'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 65480 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/USER/Documents/DevPriority/URPSandbox/URPSandbox
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+52632
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/USER/Documents/DevPriority/URPSandbox/URPSandbox
+C:/Users/USER/Documents/DevPriority/URPSandbox/URPSandbox
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21564]  Target information:
+
+Player connection [21564]  * "[IP] 192.168.1.67 [Port] 0 [Flags] 2 [Guid] 2375137096 [EditorId] 2375137096 [Version] 1048832 [Id] WindowsEditor(7,User9150-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21564] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21564] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.37f1 (090b7797214c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/DevPriority/URPSandbox/URPSandbox/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.7216
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005125 seconds.
+- Loaded All Assemblies, in  0.462 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 247 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 1109ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (195ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (143ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (337ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.817 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.777 seconds
+Domain Reload Profiling: 1590ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (555ms)
+		LoadAssemblies (385ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (189ms)
+			BuildScriptInfoCaches (56ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (777ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (631ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5989 unused Assets / (7.2 MB). Loaded Objects now: 6683.
+Memory consumption went from 165.1 MB to 157.9 MB.
+Total: 16.111200 ms (FindLiveObjects: 1.015800 ms CreateObjectMapping: 1.794400 ms MarkObjects: 8.564600 ms  DeleteObjects: 4.735200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 166951.777627 seconds.
+  path: Assets/_Project/surgeryRoom/3d66Model-1219738-files-42.jpg
+  artifactKey: Guid(6ea63b57bf4a2134c9c875713c6e99cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/3d66Model-1219738-files-42.jpg using Guid(6ea63b57bf4a2134c9c875713c6e99cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9fbedd4910c47519f74ff919ca5eff9') in 0.0950637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.544808 seconds.
+  path: Assets/_Project/surgeryRoom/3d66Model-1219738-files-75.jpg
+  artifactKey: Guid(07347999c03b30b40818f7128c06fe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/3d66Model-1219738-files-75.jpg using Guid(07347999c03b30b40818f7128c06fe55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ad62a71fd0664f462186019b4dff8bd') in 0.0652304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Project/surgeryRoom/3d66Model-1219738-files-86.jpg
+  artifactKey: Guid(5b5aaf02311bd9647a3a44052f87a6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/3d66Model-1219738-files-86.jpg using Guid(5b5aaf02311bd9647a3a44052f87a6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be9135c9c6dfed6d216b49ae1aa227e0') in 0.0377748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Project/surgeryRoom/big.mat
+  artifactKey: Guid(258b38159913daf408ab6311c74c8b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/big.mat using Guid(258b38159913daf408ab6311c74c8b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a2c6b3a2dfdf9c07162b8db767ae4bf') in 0.4652149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Project/surgeryRoom/_;BunShort.mat
+  artifactKey: Guid(236574d97256dfb40b819c65f76cb9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/_;BunShort.mat using Guid(236574d97256dfb40b819c65f76cb9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf42cf29ef46937ddd03a15144e4d952') in 0.8419618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Project/surgeryRoom/Mat3d66-1219738-62-3515.mat
+  artifactKey: Guid(c58906353f993b7468ea9f0e73b53b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/Mat3d66-1219738-62-3515.mat using Guid(c58906353f993b7468ea9f0e73b53b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82f0a895ac8b1e791c6695515634e88a') in 0.0170186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Project/surgeryRoom/_;Sclera.mat
+  artifactKey: Guid(b0f4dc20b811c0141af723a417cd2e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/_;Sclera.mat using Guid(b0f4dc20b811c0141af723a417cd2e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b98025b4f61e49c976d4d5f47fb21a41') in 0.0404235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Project/surgeryRoom/_;Legs.mat
+  artifactKey: Guid(a8b908dbaa4c7ad4e9d4c3e02fef8cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/_;Legs.mat using Guid(a8b908dbaa4c7ad4e9d4c3e02fef8cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf615b39e9ec499a386818e331257969') in 0.0152766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Project/surgeryRoom/_;Over.mat
+  artifactKey: Guid(81db3054b00ddc647b244bdcbfae965a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/_;Over.mat using Guid(81db3054b00ddc647b244bdcbfae965a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5638d968139fef9289817829fd2b6b8b') in 0.0165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Project/surgeryRoom/ai_ray_switch_shader.mat
+  artifactKey: Guid(17f62cf0f90b20d42aa9a1ee54d22ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/ai_ray_switch_shader.mat using Guid(17f62cf0f90b20d42aa9a1ee54d22ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5472220f200710a06842828e2b2fcd7') in 0.0157752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Project/surgeryRoom/_;SideBurn.mat
+  artifactKey: Guid(f92d886110e7f5b4994edfe4207bab6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/_;SideBurn.mat using Guid(f92d886110e7f5b4994edfe4207bab6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea767def49eca4c23da18776ef9246c2') in 0.0142282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Project/surgeryRoom/3d66Model-1219738-files-79.jpg
+  artifactKey: Guid(b683ed549ed56a34da01a193eb2ecece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/3d66Model-1219738-files-79.jpg using Guid(b683ed549ed56a34da01a193eb2ecece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '892373e05d865f9d0b5698f3704e6767') in 0.0338545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Project/surgeryRoom/_;Lips.mat
+  artifactKey: Guid(493aeaded4fd9ff49b2fa3b9f4647cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/_;Lips.mat using Guid(493aeaded4fd9ff49b2fa3b9f4647cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df5652c85ee9a772252e05ac3ec12926') in 0.0179115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Project/surgeryRoom/_;Face.mat
+  artifactKey: Guid(b6dcfb6a81d21df44815da01c1730772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/_;Face.mat using Guid(b6dcfb6a81d21df44815da01c1730772) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '167be2f35b43d155d8ec9ed410b7c004') in 0.0439516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Project/surgeryRoom/_;Teeth.mat
+  artifactKey: Guid(f4115a6ad4ce8594384247db2cf1a7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/_;Teeth.mat using Guid(f4115a6ad4ce8594384247db2cf1a7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21c9f22793d0a43f3ad31000d282ffa9') in 0.0416335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Project/surgeryRoom/_;Eyelashes.mat
+  artifactKey: Guid(9342bfff49c37a543a0fac43ba397f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/_;Eyelashes.mat using Guid(9342bfff49c37a543a0fac43ba397f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92e3b53109ddfbfd628369e52a544394') in 0.7920771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Project/surgeryRoom/_;BunLong.mat
+  artifactKey: Guid(ff1ddaae46c2de046b5e0b371b5b283c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/_;BunLong.mat using Guid(ff1ddaae46c2de046b5e0b371b5b283c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7080af72cf30fab2d5bd943ba1a311b8') in 0.0153273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Project/surgeryRoom/3d66Model-1219738-files-80.jpg
+  artifactKey: Guid(f6ad6cf2aa4e80f4696b94e3f92ef03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/3d66Model-1219738-files-80.jpg using Guid(f6ad6cf2aa4e80f4696b94e3f92ef03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b169628f0cb10482f50018cf44a4852a') in 0.0325654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Project/surgeryRoom/3d66Model-1219738-files-84.jpg
+  artifactKey: Guid(4847dd0b25eb2bf4d94fbe8410d28e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/3d66Model-1219738-files-84.jpg using Guid(4847dd0b25eb2bf4d94fbe8410d28e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6796405d96f81125a93ac7f5a2896b84') in 0.0290105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Project/surgeryRoom/_;Torso.mat
+  artifactKey: Guid(e24c3afe6d9f00c43ab492a468c8ebde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/_;Torso.mat using Guid(e24c3afe6d9f00c43ab492a468c8ebde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e4933ddaa3138e2c580e3dffbabfa3e') in 0.0378289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Project/surgeryRoom/_;EyeMoisture.mat
+  artifactKey: Guid(06af891e5331bd7458bb8ab070b3146f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/_;EyeMoisture.mat using Guid(06af891e5331bd7458bb8ab070b3146f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd72290d8998c33db5c1525b0c93a1cea') in 0.0152813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Project/surgeryRoom/3d66Model-1219738-files-77.jpg
+  artifactKey: Guid(6811c6583d42a9945a868d5b238fd7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/3d66Model-1219738-files-77.jpg using Guid(6811c6583d42a9945a868d5b238fd7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42f960c1718dda1b55f361466bc86817') in 0.0405697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Project/surgeryRoom/3d66Model-1219738-files-88.jpg
+  artifactKey: Guid(930c3feb2edcf834b8df7c3ef76e4b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/3d66Model-1219738-files-88.jpg using Guid(930c3feb2edcf834b8df7c3ef76e4b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf9ec2e82491f0e4cf99583188226ebf') in 0.0201883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Project/surgeryRoom/_;Arms.mat
+  artifactKey: Guid(af0c51f41215c6748873342faaf36a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/_;Arms.mat using Guid(af0c51f41215c6748873342faaf36a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a659099100b66d9cf025c7cd6cbde86f') in 0.0174515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Project/surgeryRoom/_;EyeSocket.mat
+  artifactKey: Guid(018da6cba4093e6408177d00691bebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/surgeryRoom/_;EyeSocket.mat using Guid(018da6cba4093e6408177d00691bebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '448b47f1b8d3d6912f0460169c00d769') in 0.0154764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
