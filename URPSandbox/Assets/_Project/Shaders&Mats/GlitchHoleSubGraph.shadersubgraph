@@ -468,20 +468,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "636b1afc4eb647a48d7d91c6211a12ab"
-                },
-                "m_SlotId": 3
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "a31a188e0de64dda9f243018e178d6d5"
-                },
-                "m_SlotId": 2
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "65b561d4a9f240e8b2ef12abddc82264"
                 },
                 "m_SlotId": 0
@@ -666,6 +652,20 @@
                 "m_Node": {
                     "m_Id": "9ba018ba1b7f441d83de945f49845285"
                 },
+                "m_SlotId": 3
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "a31a188e0de64dda9f243018e178d6d5"
+                },
+                "m_SlotId": 2
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "9ba018ba1b7f441d83de945f49845285"
+                },
                 "m_SlotId": 4
             },
             "m_InputSlot": {
@@ -715,20 +715,6 @@
                     "m_Id": "3b0929644fab4a848e7d9e2e9c75e767"
                 },
                 "m_SlotId": -537682010
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "a2f4b05f60b34cf187fd5b26b1362e3e"
-                },
-                "m_SlotId": 2
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "a31a188e0de64dda9f243018e178d6d5"
-                },
-                "m_SlotId": 1
             }
         },
         {
@@ -949,7 +935,7 @@
     "m_Title": "AlphaOut",
     "m_Position": {
         "x": 2179.0,
-        "y": -1022.0
+        "y": -1021.9998779296875
     }
 }
 
@@ -1118,10 +1104,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 2602.25,
-            "y": -448.0001220703125,
+            "x": 2351.0,
+            "y": -369.9999694824219,
             "width": 208.0,
-            "height": 326.0
+            "height": 325.9999694824219
         }
     },
     "m_Slots": [
@@ -1347,7 +1333,7 @@
     "m_SlotType": 0,
     "m_Hidden": false,
     "m_ShaderOutputName": "Color",
-    "m_StageCapability": 2,
+    "m_StageCapability": 3,
     "m_Value": {
         "x": 0.0,
         "y": 0.0,
@@ -1635,8 +1621,8 @@
     "m_ObjectId": "1ee4fa7a1b994bf4867818635f0a27b6",
     "m_Title": "ColorOut",
     "m_Position": {
-        "x": 2878.0,
-        "y": -127.99993133544922
+        "x": 2669.0,
+        "y": 43.000003814697269
     }
 }
 
@@ -1935,7 +1921,7 @@
     "m_ObjectId": "30bdc02763e2459b99526029df49c398",
     "m_Title": "Edge Mask",
     "m_Position": {
-        "x": 1337.0,
+        "x": 1336.9998779296875,
         "y": -1395.0
     }
 }
@@ -2574,7 +2560,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Alpha",
     "m_StageCapability": 3,
-    "m_Value": 0.0,
+    "m_Value": 1.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
@@ -2971,10 +2957,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 2903.25,
-            "y": -69.0001220703125,
+            "x": 2694.0,
+            "y": 102.0000228881836,
             "width": 208.0,
-            "height": 326.0
+            "height": 325.9999694824219
         }
     },
     "m_Slots": [
@@ -3702,10 +3688,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 2753.25,
-            "y": 123.9998779296875,
-            "width": 0.0,
-            "height": 0.0
+            "x": 2424.0,
+            "y": 145.00001525878907,
+            "width": 135.0,
+            "height": 33.99998474121094
         }
     },
     "m_Slots": [
@@ -4038,10 +4024,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 3207.25,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": -1554.9998779296875,
+            "y": -33.99998092651367,
+            "width": 86.0,
+            "height": 101.0
         }
     },
     "m_Slots": [
@@ -4622,8 +4608,8 @@
     "m_ObjectId": "b9ec1865181f4136abcaff20a6c22a30",
     "m_Title": "uvCircle",
     "m_Position": {
-        "x": -3105.0,
-        "y": 18.000133514404298
+        "x": -3104.999755859375,
+        "y": 18.0
     }
 }
 
@@ -4835,7 +4821,7 @@
     "m_Title": "Voronoi Masks",
     "m_Position": {
         "x": -534.0,
-        "y": 315.0
+        "y": 314.99993896484377
     }
 }
 
