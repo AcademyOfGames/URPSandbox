@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: envmat
+  m_Name: GlitchObject
   m_Shader: {fileID: -6465566751694194690, guid: c80f7ea32a5998f4f93e70728abd52d6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -20,7 +20,7 @@ Material:
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
-  m_LockedProperties: 
+  m_LockedProperties: _Thickness
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -109,7 +109,7 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _AngleOffset: 50
+    - _AngleOffset: 52.35
     - _Angle_Change_Speed: 0.7
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
@@ -127,13 +127,14 @@ Material:
     - _DrawOrder: 0
     - _DstBlend: 0
     - _DstBlendAlpha: 0
+    - _EdgeSpread: 1.1
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HoleSize: 8.7
+    - _HoleSize: 3.72
     - _InvertHole: 0
-    - _IslandDensity: 240.3
+    - _IslandDensity: 9.29
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -149,7 +150,7 @@ Material:
     - _Thickness_Falloff: 0.05
     - _WorkflowMode: 1
     - _Y_Fade: 0
-    - _Y_Fade_Height: -7.9
+    - _Y_Fade_Height: -5.19
     - _Y_Fade_Power: 1
     - _ZWrite: 1
     m_Colors:
@@ -157,10 +158,11 @@ Material:
     - _Color: {r: 1, g: 0.495283, b: 0.495283, a: 1}
     - _Edge_Color: {r: 0.35326692, g: 0.8962264, b: 0.30015132, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HolePos: {r: -22.83, g: 391.2, b: 0, a: 0}
+    - _HolePos: {r: 0, g: 0, b: 0, a: 0}
     - _NumberTint: {r: 0.75, g: 0.97321427, b: 1, a: 0}
     - _ScreenGlitchTint: {r: 0.91171235, g: 0.93029153, b: 0.9811321, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _TestPos: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &5655354044461378955

@@ -1,39 +1,37 @@
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
 [System.Serializable]
 public class Achievement
 {
-    public string name;
+    public string ID;
     public string description;
-    public bool achieved;
 }
 
 public class AchievmentSystem : MonoBehaviour
 {
     public Achievement[] allAchievements;
+    private int currentAchievementIndex = 0;
     public TextMeshProUGUI result;
-    
-    public List<Achievement> unlockedAchievements;
-    public void UnlockAchievement(string achievementName)
+
+    public Achievement currentAchievement;
+    public void UnlockAchievement(string achievementID)
     {
-        foreach (var achievment in allAchievements)
+        if (achievementID == currentAchievement.ID)
         {
-            if (achievementName.Contains(achievment.name) && !unlockedAchievements.Contains(achievment))
+            currentAchievementIndex++;
+            if (currentAchievementIndex < allAchievements.Length)
             {
-                if(achievment.achieved == true){
-                    break;
-                }
-                achievment.achieved = true;
-                result.text = achievment.description;
-                unlockedAchievements.Add(achievment);
-                break;
+                currentAchievement = allAchievements[currentAchievementIndex];
             }
             else
             {
-                result.text = achievementName + " already unlocked or doesn't exist";
+                //end level
             }
+            //UIManager display UI
         }
+
+
+
     }
 }

@@ -24,7 +24,7 @@ float CustomPow(float base, float exponent)
     return exp(exponent * log(base));
 }
 
-void CustomVoronoi_float(float3 WorldPos, float AngleOffset, float CellDensity, float3 HolePosition, bool YFade, float YHeight, float YPower,
+void CustomVoronoi_float(float3 WorldPos, float AngleOffset, float CellDensity, float3 HolePosition, bool YFade, float YHeight, float YPower, float3 ObjectOffset,
                                         out float DistFromCenter,
                                         out float DistFromEdge,
                                         out float CellValue)
@@ -32,7 +32,6 @@ void CustomVoronoi_float(float3 WorldPos, float AngleOffset, float CellDensity, 
     int3 cell = floor(WorldPos * CellDensity);
     float3 posInCell = frac(WorldPos * CellDensity);
 
-    
     DistFromCenter = 8.0f;
     float3 closestOffset;
 
@@ -64,8 +63,6 @@ void CustomVoronoi_float(float3 WorldPos, float AngleOffset, float CellDensity, 
     if (YFade)
     {
         CellValue = ((cell + nearestCell).y + YHeight) / CellDensity;
-//        -(YHeight * YPower);
-       float yWorldCoord = WorldPos.y;
         
        // CellValue = YHeight * YPower;//
        // yWorldCoord - YHeight;
@@ -74,7 +71,7 @@ void CustomVoronoi_float(float3 WorldPos, float AngleOffset, float CellDensity, 
     }
     else
     {
-        CellValue = DistanceSquared((cell + nearestCell) / CellDensity, HolePosition); // * lerp(hash(cell + nearestCell), .5, .6); // ;
+        CellValue = DistanceSquared( (cell + nearestCell) / CellDensity, HolePosition); // * lerp(hash(cell + nearestCell), .5, .6); // ;
     }
 
     DistFromEdge = 8.0f;
@@ -99,13 +96,13 @@ void CustomVoronoi_float(float3 WorldPos, float AngleOffset, float CellDensity, 
     }
 }
 
-void CustomVoronoi_half(float3 WorldPos, float AngleOffset, float CellDensity, float3 HolePosition, bool YFade, float YHeight, float YPower,
+void CustomVoronoi_half(float3 WorldPos, float AngleOffset, float CellDensity, float3 HolePosition, bool YFade, float YHeight, float YPower, float3 ObjectOffset,
                         out float DistFromCenter,
                         out float DistFromEdge,
                         out float CellValue)
 {
     CustomVoronoi_float(WorldPos, AngleOffset, CellDensity,
-                        HolePosition, YFade, YHeight, YPower,
+                        HolePosition, YFade, YHeight, YPower,  ObjectOffset,
                         DistFromCenter, DistFromEdge, CellValue);
 
 }
